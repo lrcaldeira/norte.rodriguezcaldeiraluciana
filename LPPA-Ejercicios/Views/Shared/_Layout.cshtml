@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - UAI </title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="container">
+  
+    <header>
+        <img class="=log" src="~/Content/Imagen/logo.gif" alt="logo"/>
+  
+
+    </header>
+
+        <section>
+            <article>
+                @RenderBody()
+            </article>
+        </section>
+ 
+        <aside id="pub">
+            <article>
+                <header>
+                    <h2>EJERCICIOS</h2>
+                    <li> <a href="~/Home/Ejercicio1">Ejercicio 1</a></li>
+                    <li> <a href="~/Home/Ejercicio2">Ejercicio 2</a></li>
+                    <li> <a href="~/Home/Ejercicio3">Ejercicio 3</a></li>
+					<li> <a href="~/Home/Ejercicio4">Ejercicio 4</a></li>
+					<li> <a href="~/Home/Ejercicio5">Ejercicio 5</a></li>
+					<li> <a href="~/Home/Ejercicio6">Ejercicio 6</a></li>
+					<li> <a href="~/Home/Ejercicio7">Ejercicio 7</a></li>
+					<li> <a href="~/Home/Ejercicio8">Ejercicio 8</a></li>
+					<li> <a href="~/Home/Ejercicio9">Ejercicio 9</a></li>
+					<li> <a href="~/Home/Ejercicio10">Ejercicio 10</a></li>
+                </header>
+              
+            </article>
+
+        </aside>
+
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Universidad Abierta Interamericana </p>
+        </footer>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
