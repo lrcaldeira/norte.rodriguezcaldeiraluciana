@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Ajax.Utilities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -58,5 +59,26 @@ namespace LPPA_Ejercicios.Controllers
         {
             return View();
         }
+
+        public ActionResult Ejercicio11()
+        {
+            return View();
+        }
+
+        public ActionResult Ejercicio12()
+        {
+            return View();
+        }
+
+        public ActionResult Ejercicio13()
+        {
+            return View();
+        }
+
+        public ActionResult Ejercicio14()
+        {
+            return View();
+        }
+
     }
 }
